@@ -13,15 +13,17 @@ X number of LEDs, and a single-pole double throw switch.
 String program_name = "LED_Experiment";
 
 // Debug Mode
-#define DebugMode // remove "//" to enter debug mode
-#define LEDCommands // remove "//" to debug led commands
-#define SwitchReader // remove "//" to debug switch reader
+//#define DebugMode // remove "//" to enter debug mode
+//#define LEDCommands // remove "//" to debug led commands
+//#define SwitchReader // remove "//" to debug switch reader
+//#define CheckTimes // remove "//" to debug times
 
 //parameters
 const int led_on_duration_seconds = 5;
 const int led_timeout_seconds = 5;
 const long led_on_duration = led_on_duration_seconds*1000000; // Microseconds
 const long led_timeout = led_timeout_seconds*1000000; //Microseconds
+
 //pins
 const int switch_trigger_pin = 2; // if high trigger led
 const int switch_drive_pin = 3; //sends signal to switch which sends to trigger or ground
@@ -32,6 +34,7 @@ const int led_trigger_pin = 5;//if switch trigger pin then triggers led
 long led_on_start = 0;
 long led_off_time = 0;
 long led_timeout_over = 0;
+
 void setup() {
   // put your setup code here, to run once:
   #ifdef DebugMode
