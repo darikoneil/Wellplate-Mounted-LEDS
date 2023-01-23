@@ -9,3 +9,8 @@ Enable verbose feedback options removing the comment syntax "//":
 
 Script 1 is single trial format.      
 Script 2 is for four trial sequences.
+Script 3 is for nine trial sequence.
+
+
+TODO:
+Test and push script 4 (dynamic trial sequence)
