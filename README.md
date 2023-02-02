@@ -1,4 +1,4 @@
-Code and hardware design for characterizing sensor dynamics using wellplate-mounted LEDs
+### Code and hardware design for characterizing sensor dynamics using wellplate-mounted LEDs
 
 
 Verbosity of feedback is controlled by conditional compilation.
