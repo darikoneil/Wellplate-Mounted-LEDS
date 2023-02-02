@@ -1,4 +1,5 @@
-## Code to control wellplate-mounted LEDs for characterizing sensor dynamics
+Code and hardware design for characterizing sensor dynamics using wellplate-mounted LEDs
+
 
 Verbosity of feedback is controlled by conditional compilation.
 Enable verbose feedback options removing the comment syntax "//":
