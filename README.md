@@ -1,5 +1,5 @@
 ### Code and hardware design for characterizing sensor dynamics using wellplate-mounted LEDs
-
+Lux Steinberg & Darik A. ONeil
 
 Verbosity of feedback is controlled by conditional compilation.
 Enable verbose feedback options removing the comment syntax "//":
